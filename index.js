@@ -14,15 +14,15 @@ function distanceFromHqInBlocks(someNumber) {
 
 function distanceFromHqInFeet(someNumber) {
   return distanceFromHqInBlocks(someNumber) * 264
-
-
 }
 
-// function distanceTravelledInFeet() {
+function distanceTravelledInFeet(begin, end) {
 
-//   let result
+  if (begin >= 1 && end > begin) {
+    return (end - begin) *264
+  }
+  else if (end < begin) {
+    return (begin - end) *264
+  } 
 
-
-
-//   return result
-// }
+}
