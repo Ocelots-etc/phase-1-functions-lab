@@ -12,14 +12,11 @@ function distanceFromHqInBlocks(someNumber) {
 
 }
 
-// function distanceFromHqInFeet() {
-
-//   let result
-
+function distanceFromHqInFeet(someNumber) {
+  return distanceFromHqInBlocks(someNumber) * 264
 
 
-//   return result 
-// }
+}
 
 // function distanceTravelledInFeet() {
 
