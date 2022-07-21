@@ -23,6 +23,14 @@ function distanceTravelledInFeet(begin, end) {
   }
   else if (end < begin) {
     return (begin - end) *264
-  } 
+  }
+}
 
+function calculatesFarePrice(begin, end) {
+  
+  if (distanceTravelledInFeet(begin, end) < 400) {
+    return 0
+
+  }
+    
 }
